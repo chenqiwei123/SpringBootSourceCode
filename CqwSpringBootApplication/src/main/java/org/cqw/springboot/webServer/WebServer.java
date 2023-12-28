@@ -1,2 +1,7 @@
-package org.cqw.springboot.webServer;public interface WebServer {
+package org.cqw.springboot.webServer;
+
+import org.springframework.web.context.WebApplicationContext;
+
+public interface WebServer {
+    public void start(WebApplicationContext webApplicationContext);
 }
